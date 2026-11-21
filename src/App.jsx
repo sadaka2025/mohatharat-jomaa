@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar/NavBar";
 import SideBar from "./components/SideBar/SideBar";
 import MovieModal from "./components/MovieModal/MovieModal";
 import Movie from "./components/Movie/Movie";
-import MusicPlayer from "./components/MusicPlayer";
+// import MusicPlayer from "./components/MusicPlayer";
 import TitleLibrary from "./components/Movie/TitleLibrary";
 
 import { Sparkles } from "lucide-react";
@@ -229,7 +229,6 @@ function App() {
       </div>
 
       {movieModalEnabled && <MovieModal />}
-      <MusicPlayer />
     </div>
   );
 }
